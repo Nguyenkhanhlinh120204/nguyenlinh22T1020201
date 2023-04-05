@@ -1,0 +1,178 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.header > div{
+    background-color:none;
+    min-width: 200px;
+}
+.header .menu ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .menu ul li{
+    background-color: none;
+    padding: 10px;
+    margin:0  5px 0 0;
+}
+
+.header .menu ul li:last-child{
+    margin: 0;
+}
+.header .menu ul li:hover{
+    background-color:darkgray;
+}
+
+.picture .img{
+    width: 50%;
+    height:50%;
+}
+.font {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    flex-grow: 1 ;
+    flex-shrink: 1;
+}
+.font .m3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.second {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    flex-grow: 1 ;
+    flex-shrink: 1;
+}
+.second .p3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.profile{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+    background-color: yellow;
+    padding: 20px 50px;
+    margin-top:30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content .sidebar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.content .sidebar a{
+    min-width: 320px;
+    min-height: 200px;
+}
+.content .sidebar .chon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sidebar .vanphong{
+    background-image: url(/images/van-phong.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .bietthu{
+    background-image: url(/images/biet-thu.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .canho{
+    background-image: url(/images/can-ho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .nhapho{
+    background-image: url(/images/nha-pho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .chon:hover{
+   cursor: pointer;
+}
+ .second .p3{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+.second .p3 a{
+        min-width: 200px;
+        min-height: 200px;
+    }
+    .second .p3 .chon{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .p3 .nhamay{
+        background-image: url(/images/nha-may.jpg);
+        background-size: cover;
+        text-align: center;
+        text-decoration:none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .p3 .showroom{
+        background-image: url(/images/showroom.jpg);
+        background-size: cover;
+        text-align: center;
+        text-decoration:none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .p3 .gioithieu{
+        background-image: url(/images/gioi-thieu.jpg);
+        background-size: cover;
+        text-align: center;
+        text-decoration:none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .p3 .chon:hover{
+       cursor: pointer;
+    }
+    .third{
+        padding: 0 150px;
+    }
